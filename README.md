@@ -1,4 +1,4 @@
-# Tropical_Hurricane_modeling
+# Tropical Hurricane modeling
 This repository consists consists of *R* code for first two chapters of Lindsey's dissertation replicated over for recent data spanning 1960-2020. The code for Chapter 1 is in _R Code Part 1_ and for Chapter 2 is in _R Code Part 2_.
 
 
