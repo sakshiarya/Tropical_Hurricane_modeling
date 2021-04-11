@@ -1,2 +1,6 @@
 # Tropical_Hurricane_modeling
-Statistical study of intensity mechanisms of tropical cyclones and their relationship with frequency, landfall and damage capabilities
+This repository consists consists of **R** code for first two chapters of Lindsey's dissertation replicated over for recent data spanning 1960-2020. The code for Chapter 1 is in _R Code Part 1_ and for Chapter 2 is in _R Code Part 2_.
+
+
+- _R Code Part 1_ consists of *R* code for modeling the relationship between maximum wind speed and minimum central pressure across basins using weighted linear models and generalized extreme value models using data from 1960-2020. Damages caused by the hurricanes are integrated in the bivariate GEV model towards the end. This provides a baseline understanding of the underlying phenomenon which motivates using a Bayesian model as in _Part 2_.
+- _R Code Part 2_ consists of *R* code for hierarchical Bayesian modeling of frequency, landfall and damage capabilities of North Atlantic hurricanes from 1960-2019. It begins with a preliminary analysis of modeling frequency, landfall and damages with 6 covariates, namely, SOI, NOA, AMO, Nino 3.4 Anomaly, Atlantic SST and Sunspots, using GLMs. Then a fully Bayesian hierarchical model is fit and a predictive analysis is conducted for years 2016-2017 to validate the model fit. For comparison sake, Empirical Bayes HM using hyperparameter choices from the preliminary analysis is also fit with all and selected covariates to compare the results with the fully Bayes HM with all and selected covariates, respectively.
